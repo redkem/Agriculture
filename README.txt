@@ -1,3 +1,15 @@
+
+CUSTOME JOOMLE TEMPLATE :
+Inside the templates folder the custom template is named Clean Template, the css is inside the template.css.
+
+The module's positon was defined in the Joomla admin panel in the Module Manager. 
+
+In the example code below, a module was declared and positioned in the col-right position of the template.
+<jdoc:include type="modules" name="col-right" style="xhtml" />.
+
+The responsiveness is supported by Bootstrap framework and the animation is done with wow.js libary. 
+
+------------------------------------------------------------------------------------------------------------------------------
 1- What is this?
 	* This is a Joomla! installation/upgrade package to version 3.x
 	* Joomla! Official site: https://www.joomla.org
