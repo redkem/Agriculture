@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.3" type="module" client="site" method="upgrade">
+	<name>JE PopUp Login</name> 
+    <version>3.3</version>
+    <creationDate>February, 2015</creationDate>
+    <author>jExtensions.com</author>
+    <authorEmail>support@jExtensions.com</authorEmail>
+    <authorUrl>http://jExtensions.com</authorUrl>
+    <copyright>Copyright 2015 - jExtensions.com</copyright>
+    <license>GNU/GPL</license>
+	<description><![CDATA[
+	<h1 class="sub-heading">JE PopUp Login</h1>	
+	<div class="description">Download more free extensions from <a href="http://jextensions.com/" target="_blank">jExtensions.com</a><br/>
+	Need help? <a href="http://jextensions.com/joomla-popup-login" target="_blank">Click here to visit the support page</a>.<br/>
+	<span class="credits">Credits: <a href="http://buckwilson.me/lightboxme/" target="_blank" >Lightboxme</a></span>
+	</div>
+		]]>
+	</description>
+	
+		
+	<files>
+		<filename module="mod_je_popuplogin">mod_je_popuplogin.php</filename>
+		<folder>css</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>php</folder>
+		<folder>tmpl</folder>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">lang/en-GB.mod_je_popuplogin.ini</language>
+		<language tag="en-GB">lang/en-GB.mod_je_popuplogin.sys.ini</language>
+	</languages>		
+	<help key="JHELP_EXTENSIONS_MODULE_MANAGER_LOGIN" />
+	<config>
+		<fields name="params" addfieldpath="/modules/mod_je_popuplogin/php">
+			<fieldset name="basic">
+			
+			<field name="jQuery" type="list" default="0" label="jQuery" description="Enable or Disable the latest jQuery version. Make sure that jQuery is loaded only once on your website.">
+				<option value="0">Disable</option>
+				<option	value="1">Enable</option>
+			</field>	
+			
+			<field name="registerB" type="list" default="0" label="Register Button" description="Enable or Disable registration button.">
+				<option value="0">Disable</option>
+				<option	value="1">Enable</option>
+			</field>				
+							
+				<field name="buttonBg" type="jscolor" default="#9aa5b3" label="Button Background" description="" />
+				<field name="buttonText" type="jscolor" default="#ffffff" label="Button Text" description="" />
+				<field name="buttonBgH" type="jscolor" default="#536376" label="Button Bg Hover" description="" />
+							
+				<field name="pretext" type="textarea" filter="safehtml" cols="30" rows="5" label="Pre-Text" description="This is the text or HTML that is displayed above the login form." />
+				<field name="posttext" type="textarea" filter="safehtml" cols="30" rows="5" label="Post-Text" description="This is the text or HTML that is displayed below the login form." />
+				<field name="login"	type="menuitem"	disable="separator"	label="Login Redirection Page"	description="MOD_JE_POPUPLOGIN_FIELD_LOGIN_REDIRECTURL_DESC" >
+					<option	value="">JDEFAULT</option>
+				</field>
+				<field	name="logout" type="menuitem" disable="separator" label="Logout Redirection Page" description="MOD_JE_POPUPLOGIN_FIELD_LOGOUT_REDIRECTURL_DESC" >
+					<option value="">JDEFAULT</option>
+				</field>
+				<field name="greeting" type="radio" default="1" label="MOD_JE_POPUPLOGIN_FIELD_GREETING_LABEL" description="MOD_JE_POPUPLOGIN_FIELD_GREETING_DESC">
+					<option	value="0">JNo</option>
+					<option value="1">JYes</option>
+				</field>
+				<field name="name" type="list" default="0" label="MOD_JE_POPUPLOGIN_FIELD_NAME_LABEL" description="MOD_JE_POPUPLOGIN_FIELD_NAME_DESC">
+					<option value="0">MOD_JE_POPUPLOGIN_VALUE_NAME</option>
+					<option	value="1">MOD_JE_POPUPLOGIN_VALUE_USERNAME</option>
+				</field>
+				<field name="usesecure"	type="radio" default="0" label="MOD_JE_POPUPLOGIN_FIELD_USESECURE_LABEL" description="MOD_JE_POPUPLOGIN_FIELD_USESECURE_DESC">
+					<option	value="0">JNo</option>
+					<option	value="1">JYes</option>
+				</field>
+				<field type="asset" />
+			</fieldset>
+
+		
+		</fields>
+	</config>
+</extension>

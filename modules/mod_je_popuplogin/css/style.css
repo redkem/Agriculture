@@ -1,0 +1,40 @@
+#je-popuplogin { margin:0; text-shadow:none!important}
+
+#je-popuplogin a.je_button, a.je_dropbtn {margin:10px 0; text-decoration:none!important}
+#je-popuplogin input.je_button, 
+#je-popuplogin a.je_button,
+#je-popuplogin .je_button,
+#je-popuplogin a.je_button span, 
+a.je_dropbtn span { -webkit-border-radius: 6px; -moz-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; cursor:pointer; text-shadow:none!important }
+#je-popuplogin a.je_button {  padding:0; cursor: pointer; display: inline-block; white-space: nowrap; nowhitespace: afterproperty; text-align: center; }
+#je-popuplogin a.je_button span { padding:10px 15px; height:40px; line-height:40px }
+
+#je-popuplogin input.je_input { width:100%}
+
+#je-popuplogin .link-options span { display:block; clear:both} 
+#je-popuplogin .link-options span a{ padding:5px 0 5px 20px; line-height:20px}
+#je-popuplogin .link-options span.je_pass a{ background:url(../img/pass.png)0 50% no-repeat}
+#je-popuplogin .link-options span.je_user a{ background:url(../img/user.png)0 50% no-repeat}
+#je-popuplogin .link-options span.je_add a{ background:url(../img/add.png)0 50% no-repeat}
+
+
+#je-popuplogin .je_hello { height:40px; line-height:40px; display:inline-block}
+#je-popuplogin .je_check { display: inline-block}
+
+
+#je-popuplogin input[type="checkbox"] { display:inline; width:20px; padding:0; margin:0}
+input[type="text"]:focus,input[type="password"]:focus,input[type="email"]:focus,input[type="url"]:focus,input[type="tel"]:focus,textarea:focus { color: #676767; outline: none; }
+
+#je-popuplogin input[type="text"],
+#je-popuplogin input[type="password"],
+#je-popuplogin input[type="email"]
+{ max-width: 100%; -moz-box-sizing: border-box; -webkit-appearance: none; -webkit-box-sizing: border-box; background: transparent; border: 1px solid #ddd; box-sizing: border-box; color: #606060; display: block; padding: 0 10px; height:40px; line-height:40px; -webkit-border-radius: 6px; -moz-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px; margin:0 0 10px 0 }
+
+#je-popuplogin button,
+#je-popuplogin input[type="button"],
+#je-popuplogin input[type="submit"] { border: transparent; cursor: pointer; display: inline-block; outline: none;  position: relative; padding:0 15px; height:30px; line-height:30px }
+
+.jePUL {background: #fff; padding: 25px; width: 250px; position: relative;  display: none; 
+-webkit-border-radius: 6px; -moz-border-radius: 6px; -o-border-radius: 6px; border-radius: 6px;
+box-shadow: 0 1px 4px rgba(0,0,0,.2); -webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2); -moz-box-shadow: 0 1px 4px rgba(0,0,0,.2); -o-box-shadow: 0 1px 4px rgba(0,0,0,.2)} 
+#close_x { width: 24px; height: 23px; overflow: hidden; line-height: 1000px; display: block; position: absolute; top: 5px; right: 5px;background:url(../img/close.png) 0 0 no-repeat }

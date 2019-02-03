@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.0" type="template" client="site">
+	<name>clean</name>
+	<creationDate>8 April 2013</creationDate>
+	<author>Nick Dimitropoulos</author>
+	<authorEmail>nick@aboutnet.gr</authorEmail>
+	<authorUrl>www.aboutnet.gr</authorUrl>
+	<copyright>Copyright (C) Aboutnet, Inc. All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<version>3.2.2</version>
+	<description>Clean Bootstrap v3.2.0</description>
+
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>fonts</folder>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>favicon.ico</filename>
+	</files>
+
+	<positions>
+	    <position>login</position>
+		<position>logo</position>
+		<position>menu</position>
+		<position>search</position>
+		<position>slider</position>
+		<position>hometext</position>
+		<position>services</position>
+		<position>our-products</position>
+		<position>home-gallery</position>
+		<position>home-news</position>
+		<position>address-map</position>
+		<position>companies</position>
+		<position>address</position>
+		<position>left_contact</position>
+		<position>right_contact</position>
+		<position>other_services</position>
+	    <position>footer-one</position>
+		<position>footer-four</position>
+	</positions>
+	
+	<config>
+	</config>
+
+</extension>
